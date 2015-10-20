@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 				publicPath: "/" + webpackConfig.output.publicPath
 			},
 			start: {
-				keepAlive: true,
+				keepalive: true,
 				webpack: {
 					devtool: "eval",
 					debug: true
